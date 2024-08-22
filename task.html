@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+        <label>Enter City ::</label>
+        <input type="text" placeholder="Bhopal" value="Bhopal" id="demo">
+        <button onclick="fun()">click here to change</button>
+
+
+        <h1 id="head">Welcome!!</h1>
+        <button onclick="fun1()">click here</button>
+        <button onclick="fun2()">stop here</button>
+
+
+    <script>
+        function fun(){
+         document.getElementById('demo').value = 'indore'
+        }
+
+let data 
+ function fun1(){
+        function print(){
+            document.getElementById("head").innerHTML += "Bhopal";
+        }
+     data = setInterval(print,1000)
+    }
+    
+     function fun2(){
+        clearInterval(data);
+    
+     }
+     
+
+
+//      // setInterval से एक टाइमर सेट करना
+// let timerId = setInterval(function() {
+//     console.log("Hello, this is repeated every 2 seconds");
+// }, 2000);
+
+// // 10 सेकंड बाद टाइमर को रोकना
+// setTimeout(function() {
+//     clearInterval(timerId);
+//     console.log("Interval cleared");
+// }, 10000);
+    </script>
+
+
+
+</body>
+</html>
