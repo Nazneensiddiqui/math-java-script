@@ -26,4 +26,4 @@ function data(){
 
 //kisi event ko hatana he to removeevent ka use karte he
 
-mybutton.removeEventListener('click',display);
+// mybutton.removeEventListener('click',display);

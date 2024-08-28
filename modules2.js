@@ -7,7 +7,7 @@ const name = "nazneen";
 const age = 28;
 
 
-// defould export cam be one think exported
+// defould export can be one think exported
 //kisi bhi file me sirf ek hi default hota he is liye kuch bhi name de sakte he import karne me 
 
 const data = ()=>{

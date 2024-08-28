@@ -2,13 +2,13 @@
 //isme class ya id dono ka use karte he class me . ka or id me # likhna zaruri he
 
 
-// let paragraph = document.querySelector(".para");
-// paragraph.style.backgroundcolor = "red";
-// paragraph.style.color = "white";
+let paragraph = document.querySelector(".para");
+paragraph.style.backgroundcolor = "red";
+paragraph.style.color = "white";
 
-// let para = document.querySelector("#mypara");
-// para.style.backgroundcolor = "yellow";
-// para.style.color = "red";
+let para = document.querySelector("#mypara");
+para.style.backgroundcolor = "yellow";
+para.style.color = "red";
 
 
 //queriselectorall me nodelist show karega like a array
